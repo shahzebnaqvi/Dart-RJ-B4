@@ -20,7 +20,7 @@ void main() {
   } else if (islastClassAttended) {
     print("Assignment should be done before 12");
   } else {
-    print("Class se bahar");
+    print("Class se bahar please");
   }
   print(sdtName);
 }
