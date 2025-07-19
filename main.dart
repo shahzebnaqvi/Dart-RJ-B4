@@ -11,7 +11,7 @@ void main() {
     print("Enter in Class");
     bool isAssignmentCorrect = false;
     if (isAssignmentCorrect) {
-      print("keep sitting");
+      // print("keep sitting");
     } else {
       print("Class se bahar");
     }
