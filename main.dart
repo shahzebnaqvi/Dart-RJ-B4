@@ -4,7 +4,7 @@ void main() {
   int minAssignmentDone = 4;
   int assignmentDone = 5;
   bool islastClassAttended = true;
-  String sdtName = "Shahzeb";
+  String sdtName = "Naqvi";
 
   // bool isAssignmentDone =true;
   if (assignmentDone >= minAssignmentDone) {
