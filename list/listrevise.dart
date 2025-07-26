@@ -1,11 +1,11 @@
 void main() {
-  List<String> stdNames = ["Shahzeb", "Abdullah"];
+  List<String> stdNames = ["Shahzeb", "Abdullah","Bilal","Bilal"];
   print(stdNames[1]);
   print(stdNames.length);
   print(stdNames.first);
   print(stdNames.last);
   print(stdNames.lastOrNull);
-  stdNames.clear();
+  // stdNames.clear();
   print(stdNames);
   stdNames.add("Shahzeb");
   stdNames.addAll(["Shahzeb", "Ali"]);
@@ -26,4 +26,6 @@ void main() {
   print(stdNames.removeLast());
   print(stdNames);
   print(stdNames.reversed.toList());
-}
+  stdNames.removeWhere((element)=>element!="Bilal");
+  print(stdNames);
+} 
