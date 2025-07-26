@@ -1,0 +1,29 @@
+void main() {
+  List<String> stdNames = ["Shahzeb", "Abdullah"];
+  print(stdNames[1]);
+  print(stdNames.length);
+  print(stdNames.first);
+  print(stdNames.last);
+  print(stdNames.lastOrNull);
+  stdNames.clear();
+  print(stdNames);
+  stdNames.add("Shahzeb");
+  stdNames.addAll(["Shahzeb", "Ali"]);
+  stdNames.insert(1, "Bilal");
+  stdNames.insertAll(1, ["Sharukh", "Maisam"]);
+  print(stdNames);
+  stdNames.remove("Maisam");
+  stdNames.removeAt(stdNames.length - 1);
+  print(stdNames);
+  stdNames.sort();
+  print(stdNames);
+  print(stdNames.reversed.toList());
+  stdNames.replaceRange(1, 1, ["a", "b"]);
+  print(stdNames);
+  print(stdNames.indexOf("Sharukh"));
+  print(stdNames.isEmpty);
+  print(stdNames.isNotEmpty);
+  print(stdNames.removeLast());
+  print(stdNames);
+  print(stdNames.reversed.toList());
+}
