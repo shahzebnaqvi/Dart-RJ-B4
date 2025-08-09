@@ -32,3 +32,12 @@ int stdMarks4({ required int num1,required int num2}){
   print(total);
   return total;
 }
+bool login({required String email, required String password, int? role}){
+bool loginUser = false;
+  print(email);
+  print(password);
+  if(role!=null){
+      loginUser =true;
+  }
+    return loginUser;
+}
